@@ -26,19 +26,7 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "features": {
-              "type": "SharedSlice"
-            },
-            "hero": {
-              "type": "SharedSlice"
-            },
-            "image_and_text": {
-              "type": "SharedSlice"
-            },
             "teste_slice": {
-              "type": "SharedSlice"
-            },
-            "cta_button": {
               "type": "SharedSlice"
             }
           }

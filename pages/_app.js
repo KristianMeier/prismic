@@ -1,30 +1,30 @@
-import Link from "next/link";
-import { PrismicLink, PrismicProvider } from "@prismicio/react";
-import { PrismicPreview } from "@prismicio/next";
+import Link from 'next/link'
+import { PrismicLink, PrismicProvider } from '@prismicio/react'
+import { PrismicPreview } from '@prismicio/next'
 
-import { linkResolver, repositoryName } from "../prismicio";
+import { linkResolver, repositoryName } from '../prismicio'
 
-import "../styles/globals.css";
+import '../styles/birthdays.css'
 
 const NextLinkShim = ({ href, locale, children, ...props }) => {
   return (
     <Link href={href} locale={locale}>
       <a {...props}>{children}</a>
     </Link>
-  );
-};
+  )
+}
 
 /** @type {import('@prismicio/react').JSXMapSerializer} */
 const richTextComponents = {
   hyperlink: ({ children, node }) => (
     <PrismicLink
       field={node.data}
-      className="underline decoration-1 underline-offset-1"
+      className='underline decoration-1 underline-offset-1'
     >
       {children}
     </PrismicLink>
   ),
-};
+}
 
 function App({ Component, pageProps }) {
   return (
@@ -37,7 +37,7 @@ function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </PrismicPreview>
     </PrismicProvider>
-  );
+  )
 }
 
-export default App;
+export default App

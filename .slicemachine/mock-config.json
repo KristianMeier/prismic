@@ -72,20 +72,8 @@
     "CtaButton": {},
     "TesteSlice": {
       "default": {
-        "primary": {
-          "titel": {
-            "config": {
-              "patternType": "HEADING",
-              "blocks": 1
-            }
-          },
-          "description": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
-            }
-          }
-        }
+        "primary": {},
+        "items": {}
       }
     }
   },

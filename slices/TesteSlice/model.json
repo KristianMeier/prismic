@@ -11,45 +11,34 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "TesteSlice",
       "primary": {
-        "titel": {
+        "Name": {
           "type": "StructuredText",
           "config": {
-            "label": "titel",
-            "placeholder": "This is where it all begins...",
-            "allowTargetBlank": true,
-            "single": "heading1"
-          }
-        },
-        "description": {
-          "type": "StructuredText",
-          "config": {
-            "label": "description",
-            "placeholder": "A nice description of your feature",
-            "allowTargetBlank": true,
-            "single": "paragraph"
-          }
-        }
-      },
-      "items": {
-        "Overskrift": {
-          "type": "StructuredText",
-          "config": {
-            "label": "Overskrift",
+            "label": "Name",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
-        "Tekst": {
+        "Age": {
           "type": "StructuredText",
           "config": {
-            "label": "Tekst",
+            "label": "Age",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
+        },
+        "Image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
         }
       },
+      "items": {},
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     }
   ]
