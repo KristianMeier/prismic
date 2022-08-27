@@ -68,7 +68,8 @@
           }
         }
       }
-    }
+    },
+    "CtaButton": {}
   },
   "_cts": {
     "page": {
@@ -78,6 +79,7 @@
           "blocks": 1
         }
       }
-    }
+    },
+    "Min-blog-post": {}
   }
 }
