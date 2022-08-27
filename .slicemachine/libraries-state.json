@@ -69,7 +69,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/kristianmeier/Documents/crash-course-next/.slicemachine/assets/slices/CtaButton/default/preview.png",
+            "width": 800,
+            "height": 48
+          }
+        }
       },
       "features": {
         "library": "slices",
