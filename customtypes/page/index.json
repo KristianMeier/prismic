@@ -34,6 +34,12 @@
             },
             "image_and_text": {
               "type": "SharedSlice"
+            },
+            "teste_slice": {
+              "type": "SharedSlice"
+            },
+            "cta_button": {
+              "type": "SharedSlice"
             }
           }
         }

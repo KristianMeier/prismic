@@ -4,12 +4,14 @@ import CtaButton from './CtaButton';
 import Features from './Features';
 import Hero from './Hero';
 import ImageAndText from './ImageAndText';
+import TesteSlice from './TesteSlice';
 
 export {
 	CtaButton,
 	Features,
 	Hero,
 	ImageAndText,
+	TesteSlice,
 };
 
 export const components = {
@@ -17,4 +19,5 @@ export const components = {
 	features: Features,
 	hero: Hero,
 	image_and_text: ImageAndText,
+	teste_slice: TesteSlice,
 };

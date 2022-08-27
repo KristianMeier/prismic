@@ -1,0 +1,9 @@
+import MyComponent from '../../../../slices/TesteSlice';
+
+export default {
+  title: 'slices/TesteSlice'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"teste_slice","items":[{"Overskrift":[{"type":"paragraph","text":"Ea et sunt officia consequat minim veniam sunt consequat do.","spans":[]}],"Tekst":[{"type":"paragraph","text":"Exercitation fugiat cillum dolore in proident sunt est tempor non. Nostrud fugiat id ullamco culpa cupidatat ad ea reprehenderit ullamco dolore.","spans":[]}]},{"Overskrift":[{"type":"paragraph","text":"Eu enim ullamco amet ipsum.","spans":[]}],"Tekst":[{"type":"paragraph","text":"Amet do occaecat laboris. Dolor eiusmod esse dolor deserunt. Dolor esse veniam cillum aute nostrud aliquip enim est fugiat magna.","spans":[]}]},{"Overskrift":[{"type":"paragraph","text":"Culpa aute irure mollit sint voluptate irure sint elit nulla consectetur. Amet aliquip tempor ut ea.","spans":[]}],"Tekst":[{"type":"paragraph","text":"Esse ea sint anim in esse reprehenderit mollit nostrud reprehenderit in ex proident eiusmod amet deserunt. Aute id laboris mollit ut irure duis adipisicing reprehenderit voluptate commodo. Lorem labore velit aliquip dolor occaecat in velit mollit et.","spans":[]}]},{"Overskrift":[{"type":"paragraph","text":"Anim duis proident Lorem commodo esse anim.","spans":[]}],"Tekst":[{"type":"paragraph","text":"Pariatur ipsum sint esse ex cupidatat sunt exercitation magna. Nisi pariatur cillum labore incididunt labore dolor dolor sit culpa veniam incididunt ea veniam. Adipisicing commodo eu proident ullamco culpa voluptate dolore eu fugiat officia.","spans":[]}]}],"primary":{"title":[{"type":"heading1","text":"Implement frictionless platforms","spans":[]}],"description":[{"type":"paragraph","text":"Cillum nostrud et fugiat duis consequat irure. Est nisi sunt eu enim Lorem ea do fugiat nulla.","spans":[]}]},"id":"_Default"}} />
+_Default.storyName = 'Default'

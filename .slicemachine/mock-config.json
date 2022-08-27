@@ -69,7 +69,8 @@
         }
       }
     },
-    "CtaButton": {}
+    "CtaButton": {},
+    "TesteSlice": {}
   },
   "_cts": {
     "page": {
