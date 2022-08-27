@@ -631,6 +631,15 @@
                     "label": "Button Text",
                     "placeholder": "Optional - Text for the button"
                   }
+                },
+                "MinTekst": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Min Tekst",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
                 }
               },
               "items": {},
@@ -653,24 +662,34 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
               },
               "tagline": [
                 {
                   "type": "paragraph",
-                  "text": "Pariatur deserunt aute officia qui amet duis. Cupidatat excepteur esse ad fugiat esse fugiat consequat id. Laboris enim officia veniam deserunt do eiusmod nulla id sint consequat duis nisi nulla.",
+                  "text": "Sit veniam duis eiusmod ad pariatur elit occaecat aliquip ipsum. Id elit dolore dolor irure culpa proident ex sunt quis.",
                   "spans": []
                 }
               ],
               "text": [
                 {
                   "type": "heading1",
-                  "text": "Incubate world-class e-commerce",
+                  "text": "Iterate cutting-edge content",
                   "spans": []
                 },
                 {
+                  "type": "image",
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+                },
+                {
                   "type": "paragraph",
-                  "text": "Elit eiusmod sint esse ipsum excepteur. Esse excepteur Lorem fugiat cupidatat occaecat adipisicing aute do aute ullamco occaecat commodo id et. Esse nisi enim enim excepteur consectetur nulla commodo cillum esse.",
+                  "text": "Culpa sunt irure consequat amet cupidatat excepteur.",
                   "spans": []
                 }
               ],
@@ -678,7 +697,14 @@
                 "link_type": "Web",
                 "url": "https://prismic.io"
               },
-              "buttonText": "expedite plug-and-play partnerships"
+              "buttonText": "productize world-class markets",
+              "MinTekst": [
+                {
+                  "type": "paragraph",
+                  "text": "Commodo laborum mollit sit sunt veniam exercitation amet irure quis enim occaecat officia pariatur eu.",
+                  "spans": []
+                }
+              ]
             }
           }
         },
@@ -686,13 +712,7 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {
-          "default": {
-            "path": "/Users/kristianmeier/Documents/crash-course-next/.slicemachine/assets/slices/ImageAndText/default/preview.png",
-            "width": 800,
-            "height": 524
-          }
-        }
+        "screenshotPaths": {}
       }
     }
   }
